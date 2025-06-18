@@ -60,3 +60,4 @@ const guardByBasicAuth = async ({ request, next, env }) => {
 };
 
 export const onRequest = [errorHandler, guardByBasicAuth];
+
